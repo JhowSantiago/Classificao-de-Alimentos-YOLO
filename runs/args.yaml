@@ -1,8 +1,8 @@
 task: detect
 mode: train
-model: Models/yolo11x.pt
+model: Models/yolo11n.pt
 data: Data/fruit.v11i.yolov11/data.yaml
-epochs: 10
+epochs: 100
 time: null
 patience: 50
 batch: 16
